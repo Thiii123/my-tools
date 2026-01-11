@@ -8,7 +8,7 @@ while($true) {
         if ($comando -eq "VIDEO") {
             $obj = New-Object -ComObject WScript.Shell
             for($i=0; $i -le 50; $i++) { $obj.SendKeys([char]175) }
-            start "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            start "https://www.youtube.com/watch?v=qHoAEWK59nE&list=RDqHoAEWK59nE&start_radio=1"
             Start-Sleep -Seconds 5
             $obj.SendKeys('f')
             
